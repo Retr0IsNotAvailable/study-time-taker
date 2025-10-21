@@ -26,9 +26,9 @@
       <nav>
         <label for="JS">
           1 hour and 30 minutes on JavaScript
-          <button>X</button>
+          <button class="js-view-button" data-list-id="0">X</button>
         </label>
-        <ul id="JS">
+        <ul id="JS" class="js-time-list-0">
           <li>25 mins</li>
           <li>25 mins</li>
           <li>25 mins</li>
@@ -36,13 +36,15 @@
 
         <label for="NodeJS">
           1 hour on Node JS
-          <button>X</button>
+          <button class="js-view-button" data-list-id="1">X</button>
         </label>
-        <ul id="NodeJS">
+        <ul id="NodeJS" class="js-time-list-1">
           <li>25 mins</li>
           <li>25 mins</li>
         </ul>
       </nav>
     </main>
+
+    <script src="./scripts/nav.js"></script>
   </body>
 </html>
