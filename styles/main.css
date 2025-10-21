@@ -3,9 +3,13 @@ main {
   color: #3b2f2f;
   width: 600px;
   margin: 70px auto 0;
-  text-align: center;
+  padding: 10px 30px;
   border: none;
   border-radius: 10px;
+}
+
+.study-time-input {
+  text-align: center;
 }
 
 label {

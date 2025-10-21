@@ -9,6 +9,7 @@
 
     <link href="styles/general.css" rel="stylesheet"/>
     <link href="styles/main.css" rel="stylesheet"/>
+    <link href="styles/nav.css" rel="stylesheet"/>
   </head>
 
   <body>
@@ -19,8 +20,29 @@
     <main>
       <div class="study-time-input">
         <label for="study-time">Enter Your study time:</label>
-        <input type="number" min="0" id="study-time"/>
+        <input type="number" min="0" id="study-time" placeholder="Time..."/>
       </div>
+
+      <nav>
+        <label for="JS">
+          1 hour and 30 minutes on JavaScript
+          <button>X</button>
+        </label>
+        <ul id="JS">
+          <li>25 mins</li>
+          <li>25 mins</li>
+          <li>25 mins</li>
+        </ul>
+
+        <label for="NodeJS">
+          1 hour on Node JS
+          <button>X</button>
+        </label>
+        <ul id="NodeJS">
+          <li>25 mins</li>
+          <li>25 mins</li>
+        </ul>
+      </nav>
     </main>
   </body>
 </html>
