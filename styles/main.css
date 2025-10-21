@@ -1,0 +1,22 @@
+main {
+  background-color: #e8e6e1;
+  color: #3b2f2f;
+  width: 600px;
+  margin: 70px auto 0;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+}
+
+label {
+  display: block;
+}
+
+.study-time-input input{
+  border: none;
+  outline: none;
+  background-color: #edfff0;
+  margin: 8px;
+  padding: 10px 15px;
+  border-radius: 15px;
+}
